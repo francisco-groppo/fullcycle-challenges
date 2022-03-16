@@ -10,7 +10,7 @@ services:
     #### PROD ####
     build:
       context: node
-      dockerfile: node/Dockerfile.prod
+      dockerfile: Dockerfile.prod
     ##############
     networks:
       - node-network
